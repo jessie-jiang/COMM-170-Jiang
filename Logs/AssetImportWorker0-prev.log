@@ -1,0 +1,379 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.24f1 (cf10dcf7010d) revision 13570268'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit ProfessionalWorkstation' Language: 'en' Physical Memory: 16306 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.3.24f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/Imaginarium Admin/Documents/GitHub/COMM-170-Jiang
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+58584
+Successfully changed project path to: C:/Users/Imaginarium Admin/Documents/GitHub/COMM-170-Jiang
+C:/Users/Imaginarium Admin/Documents/GitHub/COMM-170-Jiang
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [19852] Host "[IP] 172.16.3.103 [Port] 0 [Flags] 2 [Guid] 1793803752 [EditorId] 1793803752 [Version] 1048832 [Id] WindowsEditor(7,IMG-D-01006) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [19852] Host "[IP] 172.16.3.103 [Port] 0 [Flags] 2 [Guid] 1793803752 [EditorId] 1793803752 [Version] 1048832 [Id] WindowsEditor(7,IMG-D-01006) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 103.66 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.24f1 (cf10dcf7010d)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.24f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Imaginarium Admin/Documents/GitHub/COMM-170-Jiang/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA Quadro P4000 (ID=0x1bb1)
+    Vendor:   NVIDIA
+    VRAM:     8089 MB
+    Driver:   30.0.14.7212
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.24f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.24f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.24f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56812
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.24f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.028632 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 71.01 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.133 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1135ms)
+		BeginReloadAssembly (235ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (710ms)
+			LoadAssemblies (231ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (176ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (37ms)
+			SetupLoadedEditorAssemblies (399ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (12ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (71ms)
+				BeforeProcessingInitializeOnLoad (2ms)
+				ProcessInitializeOnLoadAttributes (226ms)
+				ProcessInitializeOnLoadMethodAttributes (87ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.066263 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\Imaginarium Admin\Documents\GitHub\COMM-170-Jiang\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Imaginarium Admin\Documents\GitHub\COMM-170-Jiang\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.64 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.023 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2025ms)
+		BeginReloadAssembly (334ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (8ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (38ms)
+		EndReloadAssembly (1405ms)
+			LoadAssemblies (481ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (388ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (85ms)
+			SetupLoadedEditorAssemblies (511ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (13ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (103ms)
+				ProcessInitializeOnLoadAttributes (344ms)
+				ProcessInitializeOnLoadMethodAttributes (29ms)
+				AfterProcessingInitializeOnLoad (21ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (17ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.13 seconds
+Refreshing native plugins compatible for Editor in 0.80 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2918 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 21 unused Assets / (56.1 KB). Loaded Objects now: 3382.
+Memory consumption went from 102.8 MB to 102.8 MB.
+Total: 3.144800 ms (FindLiveObjects: 0.294000 ms CreateObjectMapping: 0.126900 ms MarkObjects: 2.627700 ms  DeleteObjects: 0.094800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 353953.935438 seconds.
+  path: Assets/Prefabs/tree/source
+  artifactKey: Guid(faa1d526ab798ed42a43a499c370f927) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/tree/source using Guid(faa1d526ab798ed42a43a499c370f927) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9613ff397bed55417d1b440aff9cd299') in 0.022800 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 75.653967 seconds.
+  path: Assets/Prefabs/old-tree
+  artifactKey: Guid(93cdc40d23b4e7c4c9a6bf8eb0374bfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/old-tree using Guid(93cdc40d23b4e7c4c9a6bf8eb0374bfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1c16a6ed36b68fdf917190a3e546618') in 0.014788 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.846254 seconds.
+  path: Assets/Prefabs/old-tree/source
+  artifactKey: Guid(0e010d6d2899ede47a753121c5ea7a61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/old-tree/source using Guid(0e010d6d2899ede47a753121c5ea7a61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a143d64717643de037643c2a4fcc0a9') in 0.014981 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.077566 seconds.
+  path: Assets/Prefabs/old-tree/source/Oldtree.fbx
+  artifactKey: Guid(63aa7bac746d1d249b2a1f05720cddf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/old-tree/source/Oldtree.fbx using Guid(63aa7bac746d1d249b2a1f05720cddf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd7c46bc830aa2075ec689875a8b0d62') in 0.585741 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.461355 seconds.
+  path: Assets/Prefabs/old-tree/textures/old_leaf_C.jpeg
+  artifactKey: Guid(460d66dfe60c7ed4fb53cd695bf84f5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/old-tree/textures/old_leaf_C.jpeg using Guid(460d66dfe60c7ed4fb53cd695bf84f5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee11272341bcd33a5d710561f147464b') in 0.045562 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Prefabs/old-tree/textures/old_trunk_C.jpeg
+  artifactKey: Guid(e343734a76c1c0b4c85c3ef6db6d9904) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/old-tree/textures/old_trunk_C.jpeg using Guid(e343734a76c1c0b4c85c3ef6db6d9904) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b320123789deda3652d761dbbab4df53') in 0.041627 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Prefabs/old-tree/textures/old_trunk_N.jpeg
+  artifactKey: Guid(64e6ecabba0213c4ba2dd5a29fd854ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/old-tree/textures/old_trunk_N.jpeg using Guid(64e6ecabba0213c4ba2dd5a29fd854ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4fa04971111e5987af2f0bbe4b66b6e') in 0.038487 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Prefabs/old-tree/textures/old_treetop_M.jpeg
+  artifactKey: Guid(d6bf6568af26abc45922b59212e4d1e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/old-tree/textures/old_treetop_M.jpeg using Guid(d6bf6568af26abc45922b59212e4d1e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de9f8c8a9250510ba2e5d7485c40870a') in 0.042109 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Prefabs/old-tree/textures/old_leaf_N.jpeg
+  artifactKey: Guid(ea5eb87e1ab5c35489d9d57dbaf5ff05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/old-tree/textures/old_leaf_N.jpeg using Guid(ea5eb87e1ab5c35489d9d57dbaf5ff05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f769972b332056661648bb82f6c88b7') in 0.038676 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 261.936383 seconds.
+  path: Assets/Scenes
+  artifactKey: Guid(6ea315d0fd7389c41b19996891e99ae3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes using Guid(6ea315d0fd7389c41b19996891e99ae3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc172811d573b296104adb4d2728db37') in 0.015299 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.373527 seconds.
+  path: Assets/Scenes/New Scene.unity
+  artifactKey: Guid(512de53253ba4684f94d6d6afec29727) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/New Scene.unity using Guid(512de53253ba4684f94d6d6afec29727) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c09f565f547e42349b00161634ee4e7') in 0.013571 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 15.185191 seconds.
+  path: Assets/Scenes/tree.unity
+  artifactKey: Guid(512de53253ba4684f94d6d6afec29727) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/tree.unity using Guid(512de53253ba4684f94d6d6afec29727) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef9f0f9a50a307ab0dc912eba0efac56') in 0.019862 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 369.870367 seconds.
+  path: Assets
+  artifactKey: Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets using Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79842766b460edbeab6a34051e857a80') in 0.015822 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 19.451595 seconds.
+  path: Assets/Free Models in 3D
+  artifactKey: Guid(862a434285ab73645a59767d2a5cf588) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Models in 3D using Guid(862a434285ab73645a59767d2a5cf588) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '520748e0ab5e0e521fa71c4b410eab65') in 0.014310 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 462.641176 seconds.
+  path: Assets/Free Models in 3D/ferrari-550-barchetta-2000-azzurro-hyperion/source/Ferrari 550 Barchetta Pininfarina 2000 by Alex_Ka.7z
+  artifactKey: Guid(44c2762cddc756146a7c8151a64c3217) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Models in 3D/ferrari-550-barchetta-2000-azzurro-hyperion/source/Ferrari 550 Barchetta Pininfarina 2000 by Alex_Ka.7z using Guid(44c2762cddc756146a7c8151a64c3217) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca19217d58dfc4e13a25eea7387d64a8') in 0.020386 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 17.063162 seconds.
+  path: Assets/Free Models in 3D/ferrari-550-barchetta-2000-azzurro-hyperion/textures/bottom.jpeg
+  artifactKey: Guid(fabcba15ce13cbb44b9a92c5774aeb52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Models in 3D/ferrari-550-barchetta-2000-azzurro-hyperion/textures/bottom.jpeg using Guid(fabcba15ce13cbb44b9a92c5774aeb52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '319c363249225300a1ce1886dd80d951') in 0.063923 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Free Models in 3D/ferrari-550-barchetta-2000-azzurro-hyperion/textures/plate.jpeg
+  artifactKey: Guid(d15cf496151c64a4e94f3b8ca11db697) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Models in 3D/ferrari-550-barchetta-2000-azzurro-hyperion/textures/plate.jpeg using Guid(d15cf496151c64a4e94f3b8ca11db697) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb4a7b0dacb6353e9c77b0349401fe52') in 0.040883 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Free Models in 3D/ferrari-550-barchetta-2000-azzurro-hyperion/textures/FERRARI__AL's_CARS_cubemini.png
+  artifactKey: Guid(3bb9d9a3037c9394e90928954088b716) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Models in 3D/ferrari-550-barchetta-2000-azzurro-hyperion/textures/FERRARI__AL's_CARS_cubemini.png using Guid(3bb9d9a3037c9394e90928954088b716) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7664c0fa59e224ff49d39b6a7433794b') in 0.044362 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Free Models in 3D/ferrari-550-barchetta-2000-azzurro-hyperion/textures/grill 2.png
+  artifactKey: Guid(219feabb45fb993489142094b2993384) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Models in 3D/ferrari-550-barchetta-2000-azzurro-hyperion/textures/grill 2.png using Guid(219feabb45fb993489142094b2993384) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1beaa7e293175672f65d790caa7faceb') in 0.037900 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Free Models in 3D/ferrari-550-barchetta-2000-azzurro-hyperion/textures/grill.png
+  artifactKey: Guid(2b9c3ec36ef622440b145c3b7f057311) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Models in 3D/ferrari-550-barchetta-2000-azzurro-hyperion/textures/grill.png using Guid(2b9c3ec36ef622440b145c3b7f057311) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36a22a2e6a71d22a5c422ddc629f2d0f') in 0.036803 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Free Models in 3D/ferrari-550-barchetta-2000-azzurro-hyperion/textures/int.jpeg
+  artifactKey: Guid(2f6226eb79356f74fbc5d444599b872e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Models in 3D/ferrari-550-barchetta-2000-azzurro-hyperion/textures/int.jpeg using Guid(2f6226eb79356f74fbc5d444599b872e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14bb838362dc1027d2723b627163ed20') in 0.038221 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Free Models in 3D/ferrari-550-barchetta-2000-azzurro-hyperion/textures/Floor Circle.png
+  artifactKey: Guid(fb061ca0ee83ca641a16b44e8679f9e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Models in 3D/ferrari-550-barchetta-2000-azzurro-hyperion/textures/Floor Circle.png using Guid(fb061ca0ee83ca641a16b44e8679f9e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '140c010b73cc7c8d3eb7fd4de1ab1008') in 0.038314 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Free Models in 3D/ferrari-550-barchetta-2000-azzurro-hyperion/textures/tex1.jpeg
+  artifactKey: Guid(366452ebe7a725d4395e49d54c4072b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Models in 3D/ferrari-550-barchetta-2000-azzurro-hyperion/textures/tex1.jpeg using Guid(366452ebe7a725d4395e49d54c4072b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d96749990f259a124f8806f837c78ba') in 0.038638 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Free Models in 3D/ferrari-550-barchetta-2000-azzurro-hyperion/textures/wF.png
+  artifactKey: Guid(615abefe73322ca44979e80984b3a726) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Models in 3D/ferrari-550-barchetta-2000-azzurro-hyperion/textures/wF.png using Guid(615abefe73322ca44979e80984b3a726) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e58a7bb8f12bd34cb23ec4a32a8322ba') in 0.037825 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.235003 seconds.
+  path: Assets/Free Models in 3D/ferrari-550-barchetta-2000-azzurro-hyperion/source
+  artifactKey: Guid(ff6692213b7e52c4295b89783e5f634f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Models in 3D/ferrari-550-barchetta-2000-azzurro-hyperion/source using Guid(ff6692213b7e52c4295b89783e5f634f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '155afb4b0c188b62978f399b228a47df') in 0.014399 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 24.869339 seconds.
+  path: Assets/Free Models in 3D/old-tree/Materials/old_leaf_C.mat
+  artifactKey: Guid(aa30e351f4d543a42aaa3a1a0976d65c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Models in 3D/old-tree/Materials/old_leaf_C.mat using Guid(aa30e351f4d543a42aaa3a1a0976d65c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f828adb500cf27ea825eabebb41490d6') in 0.040624 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Free Models in 3D/old-tree/Materials/old_leaf_N.mat
+  artifactKey: Guid(8592470d859fd5946829647675c2906a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Models in 3D/old-tree/Materials/old_leaf_N.mat using Guid(8592470d859fd5946829647675c2906a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ddb76e85eaef44db2b5ec2f2a7561a3') in 0.041449 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Free Models in 3D/old-tree/Materials/old_treetop_M.mat
+  artifactKey: Guid(1f29496f3595f0e4796f284c5c8c899c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Models in 3D/old-tree/Materials/old_treetop_M.mat using Guid(1f29496f3595f0e4796f284c5c8c899c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19c508e66481ce42aa289bf21035712e') in 0.049583 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Free Models in 3D/old-tree/Materials/old_trunk_C.mat
+  artifactKey: Guid(52bf5e554fbdab942b8b88f72e47ce3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Models in 3D/old-tree/Materials/old_trunk_C.mat using Guid(52bf5e554fbdab942b8b88f72e47ce3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a321fba6ac3450049abc9ae710388b5e') in 0.049981 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 282.961348 seconds.
+  path: Assets/Free Models in 3D/flowers/source
+  artifactKey: Guid(15c3a733b3c90eb4584754be18afd8dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Models in 3D/flowers/source using Guid(15c3a733b3c90eb4584754be18afd8dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6c1f12129c0cc88568d3100f7554e12') in 0.013283 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.938228 seconds.
+  path: Assets/Free Models in 3D/flowers/source/plant.zip
+  artifactKey: Guid(512dbeaf7fb6abf4f8ebf77bad0b4759) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Models in 3D/flowers/source/plant.zip using Guid(512dbeaf7fb6abf4f8ebf77bad0b4759) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dfb4d553fca996fc86bac34316ba2d89') in 0.020337 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 52.289802 seconds.
+  path: Assets/Free Models in 3D/flowers/textures/astrantia.png
+  artifactKey: Guid(fd4817b1ec04fff48ba8877f98be75a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Models in 3D/flowers/textures/astrantia.png using Guid(fd4817b1ec04fff48ba8877f98be75a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3fbe9e4105c4610c6590b59428d5cfcb') in 0.044730 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Free Models in 3D/flowers/textures/chamomile.png
+  artifactKey: Guid(43a420f3ed4a45a4d97e6651cb156219) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Models in 3D/flowers/textures/chamomile.png using Guid(43a420f3ed4a45a4d97e6651cb156219) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86fc7ab7f02cd9f3c7f917990e499a29') in 0.041761 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Free Models in 3D/flowers/textures/nigella.png
+  artifactKey: Guid(acb32c7193cc1c842a8d5243af467857) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Models in 3D/flowers/textures/nigella.png using Guid(acb32c7193cc1c842a8d5243af467857) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b9c17f5884afe613d6811e44c3a4d45') in 0.048369 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Free Models in 3D/flowers/textures/stem.png
+  artifactKey: Guid(be7f8d234eb965a46a992d25696c8e0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Models in 3D/flowers/textures/stem.png using Guid(be7f8d234eb965a46a992d25696c8e0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2376477793e42a2d3e19e22a03a7e723') in 0.038225 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Free Models in 3D/flowers/textures/babybreath.png
+  artifactKey: Guid(8c789e5e594c5114d9f3344c5c7092ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Models in 3D/flowers/textures/babybreath.png using Guid(8c789e5e594c5114d9f3344c5c7092ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13f7c184c1f562b1c43f9d691028ec75') in 0.037159 seconds 
