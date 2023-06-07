@@ -48,7 +48,7 @@ MonoBehaviour:
   m_MinSize: {x: 679, y: 492}
   m_MaxSize: {x: 14002, y: 14042}
   vertical: 0
-  controlID: 37
+  controlID: 21
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -223,7 +223,7 @@ MonoBehaviour:
   m_MinSize: {x: 403, y: 492}
   m_MaxSize: {x: 10001, y: 14042}
   vertical: 1
-  controlID: 38
+  controlID: 82
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -248,7 +248,7 @@ MonoBehaviour:
   m_MinSize: {x: 403, y: 221}
   m_MaxSize: {x: 8003, y: 4021}
   vertical: 0
-  controlID: 39
+  controlID: 83
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -318,22 +318,22 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Free Models in 3D/flowers/textures
+    - Assets/Blender Models
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Free Models in 3D/flowers/textures
+  - Assets/Blender Models
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\Imaginarium Admin\Documents\GitHub\COMM-170-Jiang
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 60}
-    m_SelectedIDs: c0580000
-    m_LastClickedID: 22720
-    m_ExpandedIDs: 0000000064570000a0570000cc5700004a58000086580000c458000000ca9a3bffffff7f
+    scrollPos: {x: 0, y: 0}
+    m_SelectedIDs: 0a570000
+    m_LastClickedID: 22282
+    m_ExpandedIDs: 00000000ac560000ae560000b0560000b2560000b4560000b656000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -361,7 +361,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 0000000064570000
+    m_ExpandedIDs: 00000000ac560000ae560000b0560000b2560000b4560000b6560000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -491,23 +491,23 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: c8580000
+      m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: e8efffff3af0ffff9af0ffffbaf8ffff36fbffff
+      m_ExpandedIDs: 98f2ffff64f7ffff36fbffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
-        m_Name: old tree
-        m_OriginalName: old tree
+        m_Name: 
+        m_OriginalName: 
         m_EditFieldRect:
           serializedVersion: 2
           x: 0
           y: 0
           width: 0
           height: 0
-        m_UserData: -4130
+        m_UserData: 0
         m_IsWaitingForDelay: 0
         m_IsRenaming: 0
-        m_OriginalEventType: 0
+        m_OriginalEventType: 11
         m_IsRenamingFilename: 0
         m_ClientGUIView: {fileID: 4}
       m_SearchString: 
@@ -776,9 +776,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -0.34368896, y: 6.4166746, z: 1.1182032}
+    m_Target: {x: 5.9246864, y: 2.4656377, z: -10.52756}
     speed: 2
-    m_Value: {x: -0.34368896, y: 6.4166746, z: 1.1182032}
+    m_Value: {x: 5.9246864, y: 2.4656377, z: -10.52756}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -825,13 +825,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: 0.08793995, y: 0.32887828, z: -0.030799683, w: 0.9398077}
+    m_Target: {x: -0.055148117, y: 0.9078773, z: -0.12636474, w: -0.39602393}
     speed: 2
-    m_Value: {x: 0.08798247, y: 0.32745486, z: -0.03066649, w: 0.94026166}
+    m_Value: {x: -0.05455177, y: 0.908027, z: -0.12499739, w: -0.39608923}
   m_Size:
-    m_Target: 6.5824785
+    m_Target: 8.978641
     speed: 2
-    m_Value: 6.8926477
+    m_Value: 8.592001
   m_Ortho:
     m_Target: 0
     speed: 2

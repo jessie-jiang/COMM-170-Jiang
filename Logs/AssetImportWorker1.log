@@ -15,7 +15,7 @@ C:/Users/Imaginarium Admin/Documents/GitHub/COMM-170-Jiang
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-64615
+57305
 Successfully changed project path to: C:/Users/Imaginarium Admin/Documents/GitHub/COMM-170-Jiang
 C:/Users/Imaginarium Admin/Documents/GitHub/COMM-170-Jiang
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,11 +47,11 @@ C:/Users/Imaginarium Admin/Documents/GitHub/COMM-170-Jiang
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [4044] Host "[IP] 172.16.3.103 [Port] 0 [Flags] 2 [Guid] 3251097831 [EditorId] 3251097831 [Version] 1048832 [Id] WindowsEditor(7,IMG-D-01006) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [10792] Host "[IP] 172.16.3.103 [Port] 0 [Flags] 2 [Guid] 1664765502 [EditorId] 1664765502 [Version] 1048832 [Id] WindowsEditor(7,IMG-D-01006) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [4044] Host "[IP] 172.16.3.103 [Port] 0 [Flags] 2 [Guid] 3251097831 [EditorId] 3251097831 [Version] 1048832 [Id] WindowsEditor(7,IMG-D-01006) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [10792] Host "[IP] 172.16.3.103 [Port] 0 [Flags] 2 [Guid] 1664765502 [EditorId] 1664765502 [Version] 1048832 [Id] WindowsEditor(7,IMG-D-01006) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-Refreshing native plugins compatible for Editor in 96.89 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 181.40 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.24f1 (cf10dcf7010d)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.24f1/Editor/Data/Resources/UnitySubsystems
@@ -67,89 +67,89 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.24f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.24f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.24f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56200
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56116
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.24f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.021912 seconds.
+Registered in 0.022502 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 71.80 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 95.79 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.015 seconds
+- Completed reload, in  1.347 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1015ms)
-		BeginReloadAssembly (221ms)
+	ReloadAssembly (1348ms)
+		BeginReloadAssembly (366ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (625ms)
-			LoadAssemblies (217ms)
+			CreateAndSetChildDomain (2ms)
+		EndReloadAssembly (767ms)
+			LoadAssemblies (354ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (157ms)
+			SetupTypeCache (200ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (38ms)
-			SetupLoadedEditorAssemblies (353ms)
+			RebuildScriptCaches (48ms)
+			SetupLoadedEditorAssemblies (420ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (13ms)
+				InitializePlatformSupportModulesInManaged (17ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (72ms)
-				BeforeProcessingInitializeOnLoad (2ms)
-				ProcessInitializeOnLoadAttributes (201ms)
-				ProcessInitializeOnLoadMethodAttributes (65ms)
+				RefreshPlugins (96ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (226ms)
+				ProcessInitializeOnLoadMethodAttributes (80ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.044257 seconds.
+Registered in 0.046457 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\Imaginarium Admin\Documents\GitHub\COMM-170-Jiang\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\Imaginarium Admin\Documents\GitHub\COMM-170-Jiang\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.58 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 1.02 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.799 seconds
+- Completed reload, in  2.009 seconds
 Domain Reload Profiling:
-	ReloadAssembly (2800ms)
-		BeginReloadAssembly (240ms)
+	ReloadAssembly (2010ms)
+		BeginReloadAssembly (386ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (7ms)
+			DisableScriptedObjects (65ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (24ms)
-		EndReloadAssembly (2396ms)
-			LoadAssemblies (1614ms)
+			CreateAndSetChildDomain (42ms)
+		EndReloadAssembly (1407ms)
+			LoadAssemblies (329ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (309ms)
+			SetupTypeCache (404ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (70ms)
-			SetupLoadedEditorAssemblies (437ms)
+			RebuildScriptCaches (86ms)
+			SetupLoadedEditorAssemblies (612ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (9ms)
+				InitializePlatformSupportModulesInManaged (13ms)
 				SetLoadedEditorAssemblies (1ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (96ms)
-				ProcessInitializeOnLoadAttributes (283ms)
-				ProcessInitializeOnLoadMethodAttributes (27ms)
-				AfterProcessingInitializeOnLoad (20ms)
+				BeforeProcessingInitializeOnLoad (130ms)
+				ProcessInitializeOnLoadAttributes (411ms)
+				ProcessInitializeOnLoadMethodAttributes (33ms)
+				AfterProcessingInitializeOnLoad (22ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (12ms)
+			AwakeInstancesAfterBackupRestoration (14ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.13 seconds
-Refreshing native plugins compatible for Editor in 0.59 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.14 seconds
+Refreshing native plugins compatible for Editor in 0.58 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2918 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 21 unused Assets / (56.1 KB). Loaded Objects now: 3382.
-Memory consumption went from 102.8 MB to 102.8 MB.
-Total: 3.283700 ms (FindLiveObjects: 0.293600 ms CreateObjectMapping: 0.130800 ms MarkObjects: 2.771800 ms  DeleteObjects: 0.086200 ms)
+Memory consumption went from 102.9 MB to 102.8 MB.
+Total: 4.230700 ms (FindLiveObjects: 0.291200 ms CreateObjectMapping: 0.120900 ms MarkObjects: 3.719800 ms  DeleteObjects: 0.097800 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -163,7 +163,255 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 526838.106044 seconds.
-  path: Assets/Blender Models
-  artifactKey: Guid(e5043cc06e857d74ba6eae9e7185cde3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Blender Models using Guid(e5043cc06e857d74ba6eae9e7185cde3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73e5d9ae08ad66a614dacb2e9f151d5c') in 0.017372 seconds 
+  Time since last request: 2775614.330931 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/2.0.4/Starter Assets/XRI Default Continuous Turn.preset
+  artifactKey: Guid(0caad3af14f9a414dbdf25ed41e5aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/XR Interaction Toolkit/2.0.4/Starter Assets/XRI Default Continuous Turn.preset using Guid(0caad3af14f9a414dbdf25ed41e5aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9422b6bf5aec3a199f7b6ae6146b8a0a') in 0.122851 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/2.0.4/Starter Assets/XRI Default Snap Turn.preset
+  artifactKey: Guid(18697d253d848974aa7052cba872c9f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/XR Interaction Toolkit/2.0.4/Starter Assets/XRI Default Snap Turn.preset using Guid(18697d253d848974aa7052cba872c9f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7acc7278423eaabf268c6d77776e39d6') in 0.021315 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1040.765992 seconds.
+  path: Assets/Free Models in 3D/kitchen-appliances/textures/Kitchen_Hardware_A_basecolor.png
+  artifactKey: Guid(2b00efe68a8ec7f4799615eec4a82408) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Models in 3D/kitchen-appliances/textures/Kitchen_Hardware_A_basecolor.png using Guid(2b00efe68a8ec7f4799615eec4a82408) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9cdb6d0814dcf93cd3d4877b73b0537e') in 0.209500 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Free Models in 3D/kitchen-appliances/textures/Sink_Kitchen_A_Metallic-Sink_Kitchen_A_Roughness@channels=G.png
+  artifactKey: Guid(69ef1fc10e2c0c748bda1506d2f06406) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Models in 3D/kitchen-appliances/textures/Sink_Kitchen_A_Metallic-Sink_Kitchen_A_Roughness@channels=G.png using Guid(69ef1fc10e2c0c748bda1506d2f06406) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0bd188a592929baa7270038820b85f75') in 0.074406 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Free Models in 3D/kitchen-appliances/textures/KitchenMachinery_B_Metallic-KitchenMachinery_B_Roughness@cha.png
+  artifactKey: Guid(7a5cab8197c6db94dbd0816c2bd55be2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Models in 3D/kitchen-appliances/textures/KitchenMachinery_B_Metallic-KitchenMachinery_B_Roughness@cha.png using Guid(7a5cab8197c6db94dbd0816c2bd55be2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '340f3232e1c471226ed8c1e64360e94a') in 0.087811 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Free Models in 3D/kitchen-appliances/textures/KitchenMachinery_B_AO.tga.png
+  artifactKey: Guid(b218226144eed64498dc9befbe67069a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Models in 3D/kitchen-appliances/textures/KitchenMachinery_B_AO.tga.png using Guid(b218226144eed64498dc9befbe67069a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df740642a3148d56a121eded8a5fb222') in 0.082633 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Free Models in 3D/kitchen-appliances/textures/Pipes_Kitchen_A_AO.tga.png
+  artifactKey: Guid(99ffeb071f6b870418f46d8dad4b40b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Models in 3D/kitchen-appliances/textures/Pipes_Kitchen_A_AO.tga.png using Guid(99ffeb071f6b870418f46d8dad4b40b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2774bc96eb5dc89ff42b5f85e10b88dc') in 0.087402 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Free Models in 3D/kitchen-appliances/textures/Pipes_Kitchen_A_normal.png
+  artifactKey: Guid(f7a70c6792b05d34a991a66dfe53e259) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Models in 3D/kitchen-appliances/textures/Pipes_Kitchen_A_normal.png using Guid(f7a70c6792b05d34a991a66dfe53e259) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c39eed9adb87a0939904013e8c28cb0a') in 0.258348 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Free Models in 3D/kitchen-appliances/textures/Kitchen_Hardware_A_normal.png
+  artifactKey: Guid(65a059eb712aecb4ba7b60ad80b71b70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Models in 3D/kitchen-appliances/textures/Kitchen_Hardware_A_normal.png using Guid(65a059eb712aecb4ba7b60ad80b71b70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'efcff6ed0720a7fece03a5e7b7bf1974') in 0.077707 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Free Models in 3D/kitchen-appliances/textures/Pipes_Kitchen_A_Metallic-Pipes_Kitchen_A_Roughnes@channels=B.png
+  artifactKey: Guid(1a49ac683586c40428b8e9faaeb3a4c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Models in 3D/kitchen-appliances/textures/Pipes_Kitchen_A_Metallic-Pipes_Kitchen_A_Roughnes@channels=B.png using Guid(1a49ac683586c40428b8e9faaeb3a4c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '988d0a5116f8e21dc50986d9ca7ef098') in 0.078342 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Free Models in 3D/kitchen-appliances/textures/Sink_Kitchen_A_Normal.png
+  artifactKey: Guid(aeebe85084487c84f9ceafee8a32c2aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Models in 3D/kitchen-appliances/textures/Sink_Kitchen_A_Normal.png using Guid(aeebe85084487c84f9ceafee8a32c2aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f08d0d953e2457bf62b0fdce80996a13') in 0.076256 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1052.666494 seconds.
+  path: Assets/Free Models in 3D/kitchen-furniture/textures/Carpet_A_basecolor.png
+  artifactKey: Guid(febed62fe3c92d74f8202ba63bbcec86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Models in 3D/kitchen-furniture/textures/Carpet_A_basecolor.png using Guid(febed62fe3c92d74f8202ba63bbcec86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02e1e3ecd9d6dc927a0ea04b55a678f2') in 0.038308 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Free Models in 3D/kitchen-furniture/textures/Radiator_A_basecolor.png
+  artifactKey: Guid(d316d3566ec6e1344b242b1ec28567c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Models in 3D/kitchen-furniture/textures/Radiator_A_basecolor.png using Guid(d316d3566ec6e1344b242b1ec28567c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a235184e690dab9b1b9cb330f53c710') in 0.042539 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Free Models in 3D/kitchen-furniture/textures/Table_Kitchen_Combined_A_DefaultMaterial_normal.png
+  artifactKey: Guid(717b39de2bff5ee40a69d02345d60ea3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Models in 3D/kitchen-furniture/textures/Table_Kitchen_Combined_A_DefaultMaterial_normal.png using Guid(717b39de2bff5ee40a69d02345d60ea3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7567b28a2abc835b87b4a71d7b6db1f0') in 0.047248 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Free Models in 3D/kitchen-furniture/textures/Details_Alphaclip_A_normal.png
+  artifactKey: Guid(995b1751eb119814083f219c56553ba9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Models in 3D/kitchen-furniture/textures/Details_Alphaclip_A_normal.png using Guid(995b1751eb119814083f219c56553ba9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35d4ac1bad92d3ec1260b4caf3178686') in 0.046498 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Free Models in 3D/kitchen-furniture/textures/Carpet_A_Roughness@channels=G.png
+  artifactKey: Guid(e53bc74538dac0e43a08ae5cbcedb969) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Models in 3D/kitchen-furniture/textures/Carpet_A_Roughness@channels=G.png using Guid(e53bc74538dac0e43a08ae5cbcedb969) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '994e1986e047c69c0b32a5ea86fb7507') in 0.041228 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Free Models in 3D/kitchen-furniture/textures/Trims_Kitchen_A_basecolor.png
+  artifactKey: Guid(7e4456d8abf46b042b2db547d15b1795) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Models in 3D/kitchen-furniture/textures/Trims_Kitchen_A_basecolor.png using Guid(7e4456d8abf46b042b2db547d15b1795) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '244c64f3792cd7e743885ec11aa34e53') in 0.052614 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Free Models in 3D/kitchen-furniture/textures/Radiator_A_Metallic-Radiator_A_Roughness@channels=B.png
+  artifactKey: Guid(9962205a1b30aa645b61655aa977ee3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Models in 3D/kitchen-furniture/textures/Radiator_A_Metallic-Radiator_A_Roughness@channels=B.png using Guid(9962205a1b30aa645b61655aa977ee3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9fd43863e9f079685a19ceb6f7b4c838') in 0.043604 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Free Models in 3D/kitchen-furniture/textures/Chairs_Assembled_A_Roughness@channels=G.png
+  artifactKey: Guid(38fc0344184694a49ab9727aa47e1508) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Models in 3D/kitchen-furniture/textures/Chairs_Assembled_A_Roughness@channels=G.png using Guid(38fc0344184694a49ab9727aa47e1508) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3c17601705822ec6fbba246e44f931b') in 0.053781 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Free Models in 3D/kitchen-furniture/textures/Table_Kitchen_Combined_A_AO.tga.png
+  artifactKey: Guid(7bdb416d0bca2854b8d4596c31e8d49b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Models in 3D/kitchen-furniture/textures/Table_Kitchen_Combined_A_AO.tga.png using Guid(7bdb416d0bca2854b8d4596c31e8d49b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee118fa5ed56f2ef60ff0b4e7b0bdd28') in 0.057267 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Free Models in 3D/kitchen-furniture/textures/Chairs_Assembled_A_AO.tga.png
+  artifactKey: Guid(9596be00f3db3784abfb4fda681fd9a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Models in 3D/kitchen-furniture/textures/Chairs_Assembled_A_AO.tga.png using Guid(9596be00f3db3784abfb4fda681fd9a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6544e6648d1c83f7a1c3b001ca77c13b') in 0.054029 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Free Models in 3D/kitchen-furniture/textures/Carpet_A_normal.png
+  artifactKey: Guid(90132a162ac670342966e2abd2143b00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Models in 3D/kitchen-furniture/textures/Carpet_A_normal.png using Guid(90132a162ac670342966e2abd2143b00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb24bc54f7c72b84cfc8e4777a6425ee') in 0.043483 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Free Models in 3D/kitchen-furniture/textures/Table_Kitchen_Combined_A_Roughness@channels=G.png
+  artifactKey: Guid(b6811a6c94be8e04da693f7f90f396da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Models in 3D/kitchen-furniture/textures/Table_Kitchen_Combined_A_Roughness@channels=G.png using Guid(b6811a6c94be8e04da693f7f90f396da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '664937023fa92d60088fb239d01a2409') in 0.054409 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000112 seconds.
+  path: Assets/Free Models in 3D/kitchen-furniture/textures/Details_Alphaclip_A_basecolor.png
+  artifactKey: Guid(1807deac9302ca74aad1a27666ac0082) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Models in 3D/kitchen-furniture/textures/Details_Alphaclip_A_basecolor.png using Guid(1807deac9302ca74aad1a27666ac0082) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '184a8b16f4432d9b30579736dd712001') in 0.045917 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 148.419571 seconds.
+  path: Assets/Free Models in 3D/kitchen-appliances/Materials/Kitchen_Hardware_A_basecolor.mat
+  artifactKey: Guid(73c6d01945b618b4d9947f04a07d8b96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Models in 3D/kitchen-appliances/Materials/Kitchen_Hardware_A_basecolor.mat using Guid(73c6d01945b618b4d9947f04a07d8b96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c59b0439dc9847120542fb46a442005f') in 0.634068 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.605305 seconds.
+  path: Assets/Free Models in 3D/kitchen-furniture/Materials/Details_Alphaclip_A_AO.tga.mat
+  artifactKey: Guid(60eecacd8930f044ba729f9fa2cf8e7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Models in 3D/kitchen-furniture/Materials/Details_Alphaclip_A_AO.tga.mat using Guid(60eecacd8930f044ba729f9fa2cf8e7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28c0b82d73e6226998e163c0fd61ba96') in 0.068185 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Free Models in 3D/kitchen-furniture/Materials/Trims_Kitchen_A_AO.tga.mat
+  artifactKey: Guid(b5160cfc8c536a54e84bd116b9a18f6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Models in 3D/kitchen-furniture/Materials/Trims_Kitchen_A_AO.tga.mat using Guid(b5160cfc8c536a54e84bd116b9a18f6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b718ccd65eea5965b473b8838073a777') in 0.077789 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/Free Models in 3D/kitchen-furniture/Materials/Trims_Kitchen_A_basecolor.mat
+  artifactKey: Guid(013fa4d1ef7ae484f9ca5711ad7e3e90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Models in 3D/kitchen-furniture/Materials/Trims_Kitchen_A_basecolor.mat using Guid(013fa4d1ef7ae484f9ca5711ad7e3e90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca9e0a27cee6e72fffbaa1a5421b8a06') in 0.050849 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Free Models in 3D/kitchen-furniture/Materials/Details_Alphaclip_A_Roughness@channels=G.mat
+  artifactKey: Guid(fcc2e521de4786a4d96c7a006ba948a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Models in 3D/kitchen-furniture/Materials/Details_Alphaclip_A_Roughness@channels=G.mat using Guid(fcc2e521de4786a4d96c7a006ba948a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ceb47786a3086bc3a324b409102cd5d0') in 0.059821 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 12052.956456 seconds.
+  path: Assets/Free Models in 3D/porcelain-plate-from-the-flora-danica-service/textures/KGZ_4970_Talerz_FLORA_DANICA_NM.png
+  artifactKey: Guid(1c64aa262d7f15248b84ad61248305a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Models in 3D/porcelain-plate-from-the-flora-danica-service/textures/KGZ_4970_Talerz_FLORA_DANICA_NM.png using Guid(1c64aa262d7f15248b84ad61248305a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa0b9a91c02cee73d127012dbdf5805c') in 0.088951 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2221.662215 seconds.
+  path: Assets/Materials/New Material 3.mat
+  artifactKey: Guid(e458b020048a37d48822eb0fb22e833b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/New Material 3.mat using Guid(e458b020048a37d48822eb0fb22e833b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f77421ede5598c39f930051e86a19945') in 0.055530 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.040425 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\Imaginarium Admin\Documents\GitHub\COMM-170-Jiang\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Imaginarium Admin\Documents\GitHub\COMM-170-Jiang\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.79 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.095 seconds
+Domain Reload Profiling:
+	ReloadAssembly (3097ms)
+		BeginReloadAssembly (1451ms)
+			ExecutionOrderSort (1ms)
+			DisableScriptedObjects (30ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (248ms)
+		EndReloadAssembly (1469ms)
+			LoadAssemblies (1380ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (474ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (60ms)
+			SetupLoadedEditorAssemblies (493ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (11ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (93ms)
+				ProcessInitializeOnLoadAttributes (335ms)
+				ProcessInitializeOnLoadMethodAttributes (29ms)
+				AfterProcessingInitializeOnLoad (23ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (14ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 8.33 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2912 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 14 unused Assets / (24.6 KB). Loaded Objects now: 3427.
+Memory consumption went from 107.4 MB to 107.4 MB.
+Total: 5.824500 ms (FindLiveObjects: 0.387700 ms CreateObjectMapping: 0.187100 ms MarkObjects: 5.220400 ms  DeleteObjects: 0.028200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 627.215037 seconds.
+  path: Assets/Materials/New Material 3.mat
+  artifactKey: Guid(e458b020048a37d48822eb0fb22e833b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/New Material 3.mat using Guid(e458b020048a37d48822eb0fb22e833b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35928d085a6526b96a8e14c41d08af1d') in 0.135648 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Materials/New Material 5.mat
+  artifactKey: Guid(a8dde46236000c449a350ba5ee61aea2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/New Material 5.mat using Guid(a8dde46236000c449a350ba5ee61aea2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25a06a4074a1cefd7422acdd05e09c9b') in 0.044094 seconds 
